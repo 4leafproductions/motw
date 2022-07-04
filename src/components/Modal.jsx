@@ -9,7 +9,7 @@ const Modal = ({heading,content,negative,affirmative, show, onClose }) =>{
     return (
       <div className='overlay'>
         <div className="modal" id="modal">
-            <div className="modalHeader">
+            <div className="modalHeader sprayed">
                 <h2>{heading}</h2>
                 <button onClick={onClose}>X</button>
             </div>
@@ -17,12 +17,12 @@ const Modal = ({heading,content,negative,affirmative, show, onClose }) =>{
           <div className="modalContent">{content}</div>
           <div className="modalActions">
             {negative &&
-                <button className="toggle-button" onClick={onClose}>
+                <button className="toggle-button sprayed" onClick={onClose}>
                   {negative}
                 </button>
             }
             {affirmative &&
-              <button className="toggle-button" onClick={onSubmit}>
+              <button className="toggle-button sprayed" onClick={onSubmit}>
                 {affirmative}
               </button>
             }

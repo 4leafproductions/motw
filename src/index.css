@@ -104,7 +104,9 @@ code {
   color: #880808;
   font-family: bloodFont;
 }
-
+.sprayed{
+  background-image: url(./img/sprayBGLow.png);
+}
 @font-face {
   font-family: bloodFont;
   src: url(Bloodstain.ttf);

@@ -6,7 +6,7 @@ class HeaderNav extends React.Component{
   
     render(){
       return(
-        <div className="headerNav">
+        <div className="headerNav sprayed">
           <h2>Monster of the Week</h2>
         </div>
       );

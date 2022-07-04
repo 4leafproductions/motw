@@ -21,8 +21,12 @@ function App() {
 
   return (
     <div className="App">
-      {/* <LandingPage></LandingPage> */}
-      <MainPage></MainPage>
+
+      {/* <LandingPage></LandingPage>
+      <MainPage></MainPage> */}
+
+      <LandingPage></LandingPage>
+      {/* <MainPage></MainPage> */}
       
     </div>
   );
