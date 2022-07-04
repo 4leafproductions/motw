@@ -1,10 +1,10 @@
 import React from 'react';
 import spray from '../img/sprayBG.png';
-const Modal = ({heading,content,negative,affirmative, show, onClose }) =>{
-    function onSubmit(e){
-      console.log('submit');
-      onClose();
-    }
+const Modal = ({heading,content,negative,affirmative, show, onClose, onSubmit }) =>{
+    // function onSubmit(e){
+    //   console.log('submit');
+    //   onClose();
+    // }
     if (!show) return null;
     return (
       <div className='overlay'>
