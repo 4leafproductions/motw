@@ -65,7 +65,6 @@ code {
   background-color: #880808;
   margin-left: 10%;
   margin-right: 10%;
-  border-style: none;
   font-family: bloodFont;
   font-size: x-large;
   height: 40px;
@@ -106,6 +105,10 @@ code {
 }
 .sprayed{
   background-image: url(./img/sprayBGLow.png);
+}
+.paper{
+  background-image: url(./img/natural-paper.png);
+  background-color: #E8DCB8;
 }
 @font-face {
   font-family: bloodFont;

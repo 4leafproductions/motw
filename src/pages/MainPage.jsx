@@ -8,7 +8,7 @@ const MainPage = (props) => {
   return (
     <>
       <HeaderNav></HeaderNav>
-      <div className="mainContent">
+      <div className="mainContent paper">
         <div className="mainHeader sprayed">
           <h2>Series Select</h2>
         </div>

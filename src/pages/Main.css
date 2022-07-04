@@ -2,13 +2,16 @@
     min-width: 600px;
     min-height: 300px;
     width:50%;
-    border: 1px solid red;
-    border-radius: 8px;
+    /* border: 1px solid #880808; */
+    border-radius: 10px 10px 0px 0px;
     margin:auto;
     margin-top: 100px;
+    background-color: #E8DCB8;
 }
 .mainHeader {
     background-color: #880808;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: 0 1px 1px 1px black;
     /* min-height: 2vh; */
     display: flex;
     flex-direction: column;
