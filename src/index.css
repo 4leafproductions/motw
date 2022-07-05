@@ -89,6 +89,7 @@ code {
   font-size: large;
   color: #000000;
   font-family: bloodFont;
+  letter-spacing: 2px;
   margin-bottom: 10px;
 }
 .headerNav h2{

@@ -46,6 +46,7 @@
     font-size: 1em;
     color: #000000;
     font-family: bloodFont;
+    letter-spacing: 2px;
     margin-bottom: 10px;
   }
   .mainHeader h2{
@@ -83,26 +84,27 @@
     margin: 15px auto 15px auto;
     border-collapse: collapse;
     position: absolute;
-    /* top: 0px;
-    left: 0px; */
+     /* top: 0px;
+    left: 0px;  */
   }
   .stackHolder{
     width:30%;
+    margin-left: 10px;
   }
   #stack1{
-    z-index: -1;
+    z-index: 4;
     -webkit-transform: rotate(-3deg);
     -ms-transform: rotate(-3deg);
     transform: rotate(-3deg);
   }
   #stack2{
-    z-index: -2;
+    z-index: 3;
     -webkit-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
     transform: rotate(-5deg);
   }
   #stack3{
-    z-index: -3;
+    z-index: 2;
     -webkit-transform: rotate(2deg);
     -ms-transform: rotate(2deg);
     transform: rotate(2deg);
