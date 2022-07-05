@@ -1,11 +1,12 @@
 .mainContent{
     min-width: 600px;
-    min-height: 300px;
-    width:50%;
+    /* min-height: 200px; */
+    width:30%;
     /* border: 1px solid #880808; */
     border-radius: 10px 10px 0px 0px;
     margin:auto;
     margin-top: 100px;
+    padding-bottom: 10px;
     background-color: #E8DCB8;
 }
 .mainHeader {
@@ -25,4 +26,30 @@
   .mainHeader h2{
     margin: 5px;
     padding-left: 30px;
+  }
+  .table{
+    background-color: #f5f2e8;
+    background-image: url(../img/paper-fibers.png);
+    box-shadow: 2px 2px 5px -1px gray;
+    width:90%;
+    margin: 15px auto 15px auto;
+    border-collapse: collapse;
+  }
+  .table thead tr{
+    padding-top:40px;
+    font-family: markerFont;
+    letter-spacing: 2px;
+  }
+  /* .table thead tr th{
+    font-family: markerFont;
+  } */
+  .table tr{
+    border-bottom: 1px solid rgba(54, 142, 201, 0.288);
+  }
+  .tableActionCell{
+    border-left: 1px solid rgba(250, 149, 149, 0.404);
+  }
+  @font-face {
+    font-family: markerFont;
+    src: url(../Exposition-4d49.ttf);
   }

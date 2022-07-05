@@ -69,6 +69,8 @@ code {
   font-size: x-large;
   height: 40px;
   width: 100px;
+  border:none;
+  cursor: pointer;
 }
 .loginForm input{
   width: 100px;
