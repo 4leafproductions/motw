@@ -112,6 +112,10 @@ code {
   background-image: url(./img/natural-paper.png);
   background-color: #E8DCB8;
 }
+.concrete{
+  background-color: #5b5857;
+  background-image: url("https://transparenttextures.com/patterns/concrete-wall.png");
+}
 @font-face {
   font-family: bloodFont;
   src: url(Bloodstain.ttf);

@@ -1,3 +1,6 @@
+.mainLayout{
+  display: flex;
+}
 .mainContent{
     min-width: 600px;
     /* min-height: 200px; */
@@ -7,7 +10,29 @@
     margin:auto;
     margin-top: 100px;
     padding-bottom: 10px;
-    background-color: #E8DCB8;
+    /* z-index: -4; */
+    /* background-color: #240c01; */
+    /* background-color: #E8DCB8; */
+    
+}
+.mainLeft{
+  /* min-height: 200px; */
+  width:12%;
+  /* border: 1px solid #880808; */
+  border-radius: 10px 10px 0px 0px;
+  margin:auto;
+  margin-top: 150px;
+  margin-bottom: 60px;
+  padding-bottom: 10px;
+}
+.mainRight{
+  /* min-height: 200px; */
+  width:12%;
+  /* border: 1px solid #880808; */
+  border-radius: 10px 10px 0px 0px;
+  margin:auto;
+  margin-top: 150px;
+  padding-bottom: 10px;
 }
 .mainHeader {
     background-color: #880808;
@@ -30,8 +55,8 @@
   .table{
     background-color: #f5f2e8;
     background-image: url(../img/paper-fibers.png);
-    box-shadow: 2px 2px 5px -1px gray;
-    width:90%;
+    box-shadow: 2px 2px 5px -1px black;
+    width:96%;
     margin: 15px auto 15px auto;
     border-collapse: collapse;
   }
@@ -48,6 +73,39 @@
   }
   .tableActionCell{
     border-left: 1px solid rgba(250, 149, 149, 0.404);
+  }
+  .stack{
+    background-color: #f5f2e8;
+    background-image: url(../img/paper-fibers.png);
+    box-shadow: 2px 2px 5px -1px black;
+    width:30%;
+    height: 100px;
+    margin: 15px auto 15px auto;
+    border-collapse: collapse;
+    position: absolute;
+    /* top: 0px;
+    left: 0px; */
+  }
+  .stackHolder{
+    width:30%;
+  }
+  #stack1{
+    z-index: -1;
+    -webkit-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }
+  #stack2{
+    z-index: -2;
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+  #stack3{
+    z-index: -3;
+    -webkit-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
   }
   @font-face {
     font-family: markerFont;
