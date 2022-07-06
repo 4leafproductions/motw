@@ -75,6 +75,16 @@
   .tableActionCell{
     border-left: 1px solid rgba(250, 149, 149, 0.404);
   }
+  .darkDiv{
+    background-color: black;
+    padding:10px;
+    margin:2%;
+  }
+  .darkDiv h3{
+    color: #880808;
+    font-family: bloodFont;
+    letter-spacing: 2px;
+  }
   .stack{
     background-color: #f5f2e8;
     background-image: url(../img/paper-fibers.png);

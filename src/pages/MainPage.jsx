@@ -21,6 +21,9 @@ const MainPage = (props) => {
           <div className="mainHeader sprayed">
             <h2>Hunters</h2>
           </div>
+          <div className="darkDiv">
+            <h3>Create a hunter</h3>
+          </div>
         </div>
         <div className="mainContent concrete">
           <div className="mainHeader sprayed">
