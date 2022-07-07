@@ -55,6 +55,7 @@
   }
   .table{
     background-color: #f5f2e8;
+    /* background-color: #E0C9A6; */
     background-image: url(../img/paper-fibers.png);
     box-shadow: 2px 2px 5px -1px black;
     width:96%;
