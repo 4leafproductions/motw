@@ -23,6 +23,16 @@ const MainPage = (props) => {
       </div>
     )
   }
+  const SidePanel = (props) =>{
+    return(
+      <div className="sidePanel concrete">
+        <div className="mainHeader sprayed">
+          <h2>{props.header}</h2>
+        </div>
+        {props.button}
+      </div>
+    )
+  }
   const seriesResults = [
     {id: 1, name: 'Hello World Series', keeper: 'coolKeeper'},
     {id: 2, name: 'Another Series', keeper: 'veryCoolKeeper'}
@@ -32,11 +42,10 @@ const MainPage = (props) => {
     <>
       <HeaderNav></HeaderNav>
       <div className="mainLayout">
-        <div className="mainLeft concrete">
-          <div className="mainHeader sprayed">
-            <h2>Hunters</h2>
-          </div>
-          <AddEntity message="Create a hunter" colorDiv="redDiv"/>
+        <div className="mainLeft">
+          <SidePanel header="Hunters" button={<AddEntity message="Create a Hunter" colorDiv="redDiv"/>}/>
+          <SidePanel header="Keepers" button={<AddEntity message="Create a Series" colorDiv="redDiv"/>}/>
+          
         </div>
         
         <div className="mainContent concrete">
@@ -46,10 +55,8 @@ const MainPage = (props) => {
           <ResultsTable header={header} results={seriesResults}></ResultsTable>
           
         </div>
-        <div className="mainRight concrete">
-          <div className="mainHeader sprayed">
-            <h2>Rules</h2>
-          </div>
+        <div className="mainRight ">
+          <SidePanel header="Rules"/>
         </div>
       </div>
       
