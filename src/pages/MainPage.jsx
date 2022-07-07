@@ -8,6 +8,21 @@ import './Main.css';
 const MainPage = (props) => {
   const [openModal, setOpenModal] = useState(false);
   const header = ['Series', 'Keeper'];
+  const Plus = (props) =>{
+    return(
+      <div class="maskPlus">
+              <div className={props.colorDiv}/>
+            </div>
+    )
+  }
+  const AddEntity = (props) =>{
+    return(
+      <div className="darkDiv">
+        <h3>{props.message}</h3>
+        <Plus colorDiv={props.colorDiv}/>
+      </div>
+    )
+  }
   const seriesResults = [
     {id: 1, name: 'Hello World Series', keeper: 'coolKeeper'},
     {id: 2, name: 'Another Series', keeper: 'veryCoolKeeper'}
@@ -21,10 +36,9 @@ const MainPage = (props) => {
           <div className="mainHeader sprayed">
             <h2>Hunters</h2>
           </div>
-          <div className="darkDiv">
-            <h3>Create a hunter</h3>
-          </div>
+          <AddEntity message="Create a hunter" colorDiv="redDiv"/>
         </div>
+        
         <div className="mainContent concrete">
           <div className="mainHeader sprayed">
             <h2>Series Select</h2>

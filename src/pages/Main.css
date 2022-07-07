@@ -84,6 +84,7 @@
     color: #880808;
     font-family: bloodFont;
     letter-spacing: 2px;
+    margin: 1px;
   }
   .stack{
     background-color: #f5f2e8;
@@ -118,6 +119,27 @@
     -webkit-transform: rotate(2deg);
     -ms-transform: rotate(2deg);
     transform: rotate(2deg);
+  }
+  .maskPlus {
+    -webkit-mask-image: url(../img/plus2.png);
+    mask-image: url(../img/plus2.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;   
+    height:60px;
+    width:60px;
+    margin:auto;
+    border:2px solid #880808;
+  }
+  .maskPlus img{
+    height:60px;
+    width:60px;
+    
+  }
+  .redDiv{
+    background-color: #880808;
+    width:100%;
+    height:75px;
+
   }
   @font-face {
     font-family: markerFont;
