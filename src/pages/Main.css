@@ -87,6 +87,10 @@
     background-color: black;
     padding:10px;
     margin:2%;
+    border: 2px solid #880808;
+  }
+  .darkDiv:active{
+    border-style: inset;
   }
   .darkDiv h3{
     color: #880808;
