@@ -29,7 +29,6 @@
   width:100%;
   border-radius: 10px 10px 0px 0px;
   margin:auto;
-  margin-top: 150px;
   margin-bottom: 60px;
   padding-bottom: 10px;
 }
@@ -99,8 +98,8 @@
     background-color: #f5f2e8;
     background-image: url(../img/paper-fibers.png);
     box-shadow: 2px 2px 5px -1px black;
-    width:30%;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin: 15px auto 15px auto;
     border-collapse: collapse;
     position: absolute;

@@ -23,12 +23,20 @@ const MainPage = (props) => {
       </div>
     )
   }
+  const Polaroids = (props) =>{
+    return(
+      <div >
+        <PaperStack/>
+      </div>
+    )
+  }
   const SidePanel = (props) =>{
     return(
       <div className="sidePanel concrete">
         <div className="mainHeader sprayed">
           <h2>{props.header}</h2>
         </div>
+        {props.content}
         {props.button}
       </div>
     )
@@ -43,7 +51,7 @@ const MainPage = (props) => {
       <HeaderNav></HeaderNav>
       <div className="mainLayout">
         <div className="mainLeft">
-          <SidePanel header="Hunters" button={<AddEntity message="Create a Hunter" colorDiv="redDiv"/>}/>
+          <SidePanel header="Hunters" content={<Polaroids/>} button={<AddEntity message="Create a Hunter" colorDiv="redDiv"/>}/>
           <SidePanel header="Keepers" button={<AddEntity message="Create a Series" colorDiv="redDiv"/>}/>
           
         </div>
