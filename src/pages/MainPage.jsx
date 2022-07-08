@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import spray from '../img/sprayBG.png';
+import w3test from '../img/w3logo.png';
+import face from '../img/face.png';
 import Modal from '../components/Modal';
 import HeaderNav from '../components/HeaderNav';
 import ResultsTable from '../components/ResultsTable';
@@ -27,7 +29,9 @@ const MainPage = (props) => {
     return(
       <div className="polaroidHolder">
         <div className="polaroid paper">
-          <div className="polaroidImg"/>
+          
+          <img className="polaroidImg" src={props.image}/>
+          <div className="polaroidLabel">{props.label}</div>
         </div>
         <PaperStack/>
       </div>
@@ -54,7 +58,7 @@ const MainPage = (props) => {
       <HeaderNav></HeaderNav>
       <div className="mainLayout">
         <div className="mainLeft">
-          <SidePanel header="Hunters" content={<Polaroids/>} button={<AddEntity message="Create a Hunter" colorDiv="redDiv"/>}/>
+          <SidePanel header="Hunters" content={<Polaroids label="hunterName    7/7/2022" image={face}/>} button={<AddEntity message="Create a Hunter" colorDiv="redDiv"/>}/>
           <SidePanel header="Keepers" button={<AddEntity message="Create a Series" colorDiv="redDiv"/>}/>
           
         </div>

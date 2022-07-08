@@ -140,6 +140,12 @@
     margin:auto;
     margin-top:10px;
   }
+  .polaroidLabel{
+    font-family: markerFont;
+    -webkit-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+  }
   #stack1{
     z-index: 4;
     -webkit-transform: rotate(-3deg);
