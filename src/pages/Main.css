@@ -114,6 +114,32 @@
     width:30%;
     margin-left: 10px;
   }
+  .polaroidHolder{
+    height: 150px;
+    padding-left: 25px;
+    margin-bottom: 30px;
+  }
+  .polaroid{
+    margin-left: 10px;
+    margin-top: 0px;
+    height:160px;
+    width:150px;
+    z-index: 5;
+    position: absolute;
+    background-color: #f5f2e8;
+    background-image: url(../img/paper-fibers.png);
+    box-shadow:3px 3px 8px 3px;
+    -webkit-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
+  }
+  .polaroidImg{
+    background-color: black;
+    height:120px;
+    width:120px;
+    margin:auto;
+    margin-top:10px;
+  }
   #stack1{
     z-index: 4;
     -webkit-transform: rotate(-3deg);

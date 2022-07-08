@@ -11,8 +11,8 @@ const MainPage = (props) => {
   const Plus = (props) =>{
     return(
       <div class="maskPlus">
-              <div className={props.colorDiv}/>
-            </div>
+        <div className={props.colorDiv}/>
+      </div>
     )
   }
   const AddEntity = (props) =>{
@@ -25,7 +25,10 @@ const MainPage = (props) => {
   }
   const Polaroids = (props) =>{
     return(
-      <div >
+      <div className="polaroidHolder">
+        <div className="polaroid paper">
+          <div className="polaroidImg"/>
+        </div>
         <PaperStack/>
       </div>
     )
