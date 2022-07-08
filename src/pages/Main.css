@@ -29,7 +29,6 @@
   width:100%;
   border-radius: 10px 10px 0px 0px;
   margin:auto;
-  margin-top: 150px;
   margin-bottom: 60px;
   padding-bottom: 10px;
 }
@@ -88,6 +87,10 @@
     background-color: black;
     padding:10px;
     margin:2%;
+    border: 2px solid #880808;
+  }
+  .darkDiv:active{
+    border-style: inset;
   }
   .darkDiv h3{
     color: #880808;
