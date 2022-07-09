@@ -88,6 +88,7 @@
     padding:10px;
     margin:2%;
     border: 2px solid #880808;
+    cursor: pointer;
   }
   .darkDiv:active{
     border-style: inset;

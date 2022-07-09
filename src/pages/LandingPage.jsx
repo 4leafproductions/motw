@@ -15,7 +15,10 @@ const LandingPage = (props, {onSubmit}) => {
   return (
     <div className="landing">
       <h1>Monster of the Week</h1>
-      <h2 onClick={() => setOpenModal(true)}>Log In</h2>
+      <div className="darkDiv">
+        <h3 onClick={() => setOpenModal(true)}>Log In</h3>
+      </div>
+      
       <Modal heading="Log In" content={<LoginForm />}  negative="Cancel" affirmative="Log In" show={openModal} onSubmit={() => {handleSubmit()}} onClose={() => setOpenModal(false)}></Modal>
     </div>
   )

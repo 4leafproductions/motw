@@ -120,6 +120,7 @@ code {
 .hoverIcon:hover{
   zoom: 1.03;
   -moz-transform: scale(1.03);
+  cursor: pointer;
 }
 @font-face {
   font-family: bloodFont;
