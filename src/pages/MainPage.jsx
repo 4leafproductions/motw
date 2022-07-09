@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
 import spray from '../img/sprayBG.png';
-import w3test from '../img/w3logo.png';
 import face from '../img/face.png';
-import rules from '../img/ledger.png';
 import Modal from '../components/Modal';
 import HeaderNav from '../components/HeaderNav';
 import ResultsTable from '../components/ResultsTable';
 import PaperStack from '../components/PaperStack';
+import IconRulebook from '../components/IconRulebook';
 import './Main.css';
+
 const MainPage = (props) => {
   const [openModal, setOpenModal] = useState(false);
   const header = ['Series', 'Keeper'];
   const Plus = (props) =>{
     return(
-      <div class="maskPlus">
+      <div className="maskPlus">
         <div className={props.colorDiv}/>
       </div>
     )
@@ -72,7 +72,7 @@ const MainPage = (props) => {
           
         </div>
         <div className="mainRight ">
-          <SidePanel header="Rules" content={<img className="hoverIcon" src={rules} width="160"/>}/>
+          <SidePanel header="Rules" content={<IconRulebook/>}/>
         </div>
       </div>
       

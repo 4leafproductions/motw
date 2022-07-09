@@ -93,7 +93,7 @@
   .darkDiv:active{
     border-style: inset;
   }
-  .darkDiv h3{
+  h3{
     color: #880808;
     font-family: bloodFont;
     letter-spacing: 2px;
