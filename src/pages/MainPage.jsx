@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import spray from '../img/sprayBG.png';
 import w3test from '../img/w3logo.png';
 import face from '../img/face.png';
+import rules from '../img/ledger.png';
 import Modal from '../components/Modal';
 import HeaderNav from '../components/HeaderNav';
 import ResultsTable from '../components/ResultsTable';
@@ -28,7 +29,7 @@ const MainPage = (props) => {
   const Polaroids = (props) =>{
     return(
       <div className="polaroidHolder">
-        <div className="polaroid paper">
+        <div className="polaroid paper hoverIcon">
           
           <img className="polaroidImg" src={props.image}/>
           <div className="polaroidLabel">{props.label}</div>
@@ -71,7 +72,7 @@ const MainPage = (props) => {
           
         </div>
         <div className="mainRight ">
-          <SidePanel header="Rules"/>
+          <SidePanel header="Rules" content={<img className="hoverIcon" src={rules} width="160"/>}/>
         </div>
       </div>
       
